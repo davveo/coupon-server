@@ -3,7 +3,7 @@ package logger
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/davveo/market-coupon/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/logger"
 	"io"
 	"net/http"
 	"time"

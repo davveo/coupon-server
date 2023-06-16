@@ -3,9 +3,9 @@ package config
 import (
 	"sync"
 
-	"github.com/davveo/market-coupon/pkg/config"
-	"github.com/davveo/market-coupon/pkg/config/log"
-	"github.com/davveo/market-coupon/pkg/config/reader"
+	"github.com/davveo/coupon-server/pkg/config"
+	"github.com/davveo/coupon-server/pkg/config/log"
+	"github.com/davveo/coupon-server/pkg/config/reader"
 )
 
 const (

@@ -1,7 +1,7 @@
 package rpccode
 
 import (
-	_errors "github.com/davveo/market-coupon/pkg/pkgerror"
+	_errors "github.com/davveo/coupon-server/pkg/pkgerror"
 )
 
 var errors Errors

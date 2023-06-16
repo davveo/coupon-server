@@ -2,12 +2,12 @@ package bootstrap
 
 import (
 	"fmt"
-	"github.com/davveo/market-coupon/app"
-	"github.com/davveo/market-coupon/config"
-	"github.com/davveo/market-coupon/pkg/db"
-	"github.com/davveo/market-coupon/pkg/logger"
-	"github.com/davveo/market-coupon/pkg/redis"
-	"github.com/davveo/market-coupon/pkg/signal"
+	"github.com/davveo/coupon-server/app"
+	"github.com/davveo/coupon-server/config"
+	"github.com/davveo/coupon-server/pkg/db"
+	"github.com/davveo/coupon-server/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/redis"
+	"github.com/davveo/coupon-server/pkg/signal"
 )
 
 func Bootstrap() {

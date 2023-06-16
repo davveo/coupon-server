@@ -1,6 +1,6 @@
 package rpccode
 
-import _errors "github.com/davveo/market-coupon/pkg/pkgerror"
+import _errors "github.com/davveo/coupon-server/pkg/pkgerror"
 
 // ErrCode implements `gitee.com/arabot777/arabot-go/pkg/errors`.Coder interface.
 type ErrCode struct {

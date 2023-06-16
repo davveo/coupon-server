@@ -3,8 +3,8 @@ package logger
 import (
 	"context"
 	"fmt"
-	"github.com/davveo/market-coupon/pkg/config/log"
-	"github.com/davveo/market-coupon/pkg/constant"
+	"github.com/davveo/coupon-server/pkg/config/log"
+	"github.com/davveo/coupon-server/pkg/constant"
 	"github.com/uptrace/opentelemetry-go-extra/otelzap"
 	"os"
 )

@@ -2,11 +2,11 @@ package cron
 
 import (
 	"context"
-	"github.com/davveo/market-coupon/app/service"
-	"github.com/davveo/market-coupon/pkg/crontab"
-	"github.com/davveo/market-coupon/pkg/db"
-	"github.com/davveo/market-coupon/pkg/distributed"
-	"github.com/davveo/market-coupon/pkg/logger"
+	"github.com/davveo/coupon-server/app/service"
+	"github.com/davveo/coupon-server/pkg/crontab"
+	"github.com/davveo/coupon-server/pkg/db"
+	"github.com/davveo/coupon-server/pkg/distributed"
+	"github.com/davveo/coupon-server/pkg/logger"
 )
 
 func Run(service *service.Service) {

@@ -1,15 +1,17 @@
 package wrapper
 
 import (
-	"github.com/davveo/market-coupon/pkg/gin/code"
+	"github.com/davveo/coupon-server/pkg/gin/code"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
 )
 
 type Message struct {
-	Code int         `json:"code"`
-	Data interface{} `json:"data,omitempty"`
+	Code    int         `json:"code"`
+	Message string      `json:"message"`
+	Success bool        `json:"success"`
+	Data    interface{} `json:"data,omitempty"`
 }
 
 type MessageError struct {

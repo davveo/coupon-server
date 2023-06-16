@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/davveo/market-coupon/pkg/config"
-	"github.com/davveo/market-coupon/pkg/db"
-	"github.com/davveo/market-coupon/pkg/gin/code"
-	"github.com/davveo/market-coupon/pkg/logger"
-	"github.com/davveo/market-coupon/pkg/pkgerror"
+	"github.com/davveo/coupon-server/pkg/config"
+	"github.com/davveo/coupon-server/pkg/db"
+	"github.com/davveo/coupon-server/pkg/gin/code"
+	"github.com/davveo/coupon-server/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/pkgerror"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

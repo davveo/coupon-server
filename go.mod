@@ -1,4 +1,4 @@
-module github.com/davveo/market-coupon
+module github.com/davveo/coupon-server
 
 go 1.20
 

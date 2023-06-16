@@ -2,8 +2,8 @@ package crontab
 
 import (
 	"context"
-	"github.com/davveo/market-coupon/pkg/logger"
-	"github.com/davveo/market-coupon/pkg/signal"
+	"github.com/davveo/coupon-server/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/signal"
 )
 
 var (

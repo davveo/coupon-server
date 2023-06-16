@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/davveo/market-coupon/pkg/distributed"
-	"github.com/davveo/market-coupon/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/distributed"
+	"github.com/davveo/coupon-server/pkg/logger"
 	"github.com/robfig/cron"
 )
 

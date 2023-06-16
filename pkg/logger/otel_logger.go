@@ -2,7 +2,7 @@ package logger
 
 import (
 	"context"
-	"github.com/davveo/market-coupon/pkg/config/log"
+	"github.com/davveo/coupon-server/pkg/config/log"
 	"github.com/uptrace/opentelemetry-go-extra/otelzap"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

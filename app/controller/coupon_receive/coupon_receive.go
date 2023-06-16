@@ -1,4 +1,4 @@
-package coupon
+package coupon_receive
 
 import (
 	"github.com/davveo/coupon-server/config"
@@ -15,6 +15,6 @@ func NewController(conf *config.Config, db *db.Datastore, redis *rdsV8.Client) *
 	return &Controller{}
 }
 
-func (c *Controller) Page(ctx *gin.Context) {
+func (c *Controller) ProduceCoupon(ctx *gin.Context) {
 	wrapper.ReplyOK(ctx)
 }

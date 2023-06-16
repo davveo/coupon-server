@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/davveo/market-coupon/config"
-	"github.com/davveo/market-coupon/pkg/db"
+	"github.com/davveo/coupon-server/config"
+	"github.com/davveo/coupon-server/pkg/db"
 	rdsV8 "github.com/go-redis/redis/v8"
 )
 

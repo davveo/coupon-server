@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 	"fmt"
-	"github.com/davveo/market-coupon/pkg/config"
+	"github.com/davveo/coupon-server/pkg/config"
 	"sync"
 
 	"github.com/go-redis/redis/v8"

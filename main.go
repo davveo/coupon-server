@@ -1,6 +1,6 @@
 package main
 
-import "github.com/davveo/market-coupon/bootstrap"
+import "github.com/davveo/coupon-server/bootstrap"
 
 func main() {
 	bootstrap.Bootstrap()

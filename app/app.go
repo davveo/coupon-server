@@ -2,12 +2,12 @@ package app
 
 import (
 	"fmt"
-	"github.com/davveo/market-coupon/app/router"
-	"github.com/davveo/market-coupon/app/service"
-	"github.com/davveo/market-coupon/config"
-	"github.com/davveo/market-coupon/cron"
-	"github.com/davveo/market-coupon/pkg/constant"
-	"github.com/davveo/market-coupon/pkg/db"
+	"github.com/davveo/coupon-server/app/router"
+	"github.com/davveo/coupon-server/app/service"
+	"github.com/davveo/coupon-server/config"
+	"github.com/davveo/coupon-server/cron"
+	"github.com/davveo/coupon-server/pkg/constant"
+	"github.com/davveo/coupon-server/pkg/db"
 	"github.com/gin-gonic/gin"
 	rdsV8 "github.com/go-redis/redis/v8"
 )

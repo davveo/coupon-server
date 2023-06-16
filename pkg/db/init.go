@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/davveo/market-coupon/pkg/config"
-	"github.com/davveo/market-coupon/pkg/logger"
+	"github.com/davveo/coupon-server/pkg/config"
+	"github.com/davveo/coupon-server/pkg/logger"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

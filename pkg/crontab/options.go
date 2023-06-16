@@ -1,6 +1,6 @@
 package crontab
 
-import "github.com/davveo/market-coupon/pkg/distributed"
+import "github.com/davveo/coupon-server/pkg/distributed"
 
 type Option func(*Crontab)
 

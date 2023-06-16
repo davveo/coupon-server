@@ -1,7 +1,7 @@
 package code
 
 import (
-	"github.com/davveo/market-coupon/pkg/gin/code/rpccode"
+	"github.com/davveo/coupon-server/pkg/gin/code/rpccode"
 )
 
 const OK = 0

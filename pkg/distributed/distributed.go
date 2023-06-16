@@ -1,8 +1,8 @@
 package distributed
 
 import (
-	"github.com/davveo/market-coupon/pkg/config"
-	"github.com/davveo/market-coupon/pkg/db"
+	"github.com/davveo/coupon-server/pkg/config"
+	"github.com/davveo/coupon-server/pkg/db"
 )
 
 const (
