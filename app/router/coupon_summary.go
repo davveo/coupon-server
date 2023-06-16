@@ -1,6 +1,7 @@
 package router
 
 import (
+	"github.com/davveo/coupon-server/app/controller/coupon_summary"
 	"github.com/davveo/coupon-server/config"
 	"github.com/davveo/coupon-server/pkg/db"
 	"github.com/gin-gonic/gin"
