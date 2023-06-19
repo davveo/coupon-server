@@ -4,7 +4,7 @@ import (
 	"github.com/davveo/coupon-server/pkg/gin/code/rpccode"
 )
 
-const OK = 0
+const OK = 20000
 
 const (
 	ErrBadParams          int = iota + 100001 // 参数错误接口
