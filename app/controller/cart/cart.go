@@ -4,7 +4,6 @@ import (
 	"github.com/davveo/coupon-server/app/biz"
 	"github.com/davveo/coupon-server/app/biz/impl"
 	"github.com/davveo/coupon-server/app/entity"
-	"github.com/davveo/coupon-server/config"
 	"github.com/davveo/coupon-server/pkg/db"
 	"github.com/davveo/coupon-server/pkg/gin/code"
 	"github.com/davveo/coupon-server/pkg/gin/wrapper"
@@ -16,7 +15,7 @@ type Controller struct {
 	cartBiz biz.CartBiz
 }
 
-func NewController(conf *config.Config, db *db.Datastore, redis *rdsV8.Client) *Controller {
+func NewController(db *db.Datastore, redis *rdsV8.Client) *Controller {
 	return &Controller{
 		cartBiz: impl.NewCartBiz(db, redis),
 	}
